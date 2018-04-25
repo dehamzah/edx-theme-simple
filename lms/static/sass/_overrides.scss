@@ -1,5 +1,10 @@
-.header-global .logo img {
-	max-height: 50px;
+.header-global {
+	border-bottom: none;
+	box-shadow: none;
+
+	.logo img {
+		max-height: 50px;
+	}
 }
 
 .home > header {
@@ -12,9 +17,12 @@
 	    padding-bottom: 150px;
 	}
 	.title {
-		background: transparent;
+		background: rgba(100, 170, 214, 0.85);
 		box-shadow: none;
-		margin-left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		text-align: center;
 
 		> .heading-group h1 {
 			color: #fff;
@@ -28,4 +36,10 @@
 
 .wrapper-footer .wrapper-logo img {
 	max-width: 90px;
+}
+
+// Button
+.btn {
+	box-shadow: none !important;
+	border-radius: 0 !important;
 }
